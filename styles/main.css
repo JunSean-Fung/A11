@@ -1,7 +1,9 @@
+/* JunSean Fung*/
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+	font-size: 100%;
+	margin: 8px 8px 8px; /* default margin */
 }
 
 /* the styles for the header */
@@ -13,5 +15,52 @@ header img {
 main {
 	clear: left;
 }
+/* styles for h1 within the main element*/
+main h1 {
+	font-size: 150%;
+}
 
+/* styles for h2 within the main element*/
+main h2 {
+	font-size: 130%;
+	color: #800000;
+}
+/* styles for h3 within the main element*/
+main h3{
+	font-size: 105%;
+}
+
+/* style for h2 within the header tag*/
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+/* style for h3 within the header tag */
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+
+/* When focus on the link */
+a:focus {
+	font-style: italic;
+}
+/* when hover on the link */
+a:hover {
+	font-style: italic;
+}
+
+
+
+/* text shadow */
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
 /* the styles for the footer */
+footer p{
+	text-align: center; /* align the text to center */
+}
+
+

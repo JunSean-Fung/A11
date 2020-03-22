@@ -30,13 +30,11 @@ header img {
 	float: left;
 	padding-left: 30px; /* set left padding */
 	padding-right: 30px; /* set right padding */
-
 }
 /* style for h2 within the header tag*/
 header h2 {
 	font-size: 170%;
 	color: #800000;
-
 }
 /* style for h3 within the header tag */
 header h3 {
@@ -46,50 +44,74 @@ header h3 {
 }
 
 /* ========== Main Selectors ==========*/
-/* the styles for the whole section from our mission header to the last speaker's image*/
+/* the selector that is within the html main tag that is not been specified*/
 main {
 	clear: left;
 	padding-left: 30px; /* set left padding */
 	padding-right: 30px; /* set right padding */
 }
-/* styles for h1 within the main element*/
+/* selector for h1 within the main element*/
 main h1 {
 	font-size: 150%;
 	border-top: 3px solid #931420; /*parameter: width style color */
 	border-bottom: 3px solid #931420; /*parameter: width style color */
+	padding-top: 0.3em; /* set top padding */
+	padding-bottom: 0.3em; /* set bottom padding */
 }
-
-/* styles for h2 within the main element*/
+/* selector for h2 within the main element*/
 main h2 {
 	font-size: 130%;
 	color: #800000;
+	padding-top: 0.5em; /* set top padding */
+	padding-bottom: 0.25em; /* set bottom padding */
 }
-/* styles for h3 within the main element*/
+/* selector for h3 within the main element*/
 main h3 {
 	font-size: 105%;
+	padding-bottom: 0.25em; /* set bottom padding */
 }
-
+/* selector for image within the main element*/
+main img {
+	padding-bottom: 1em; /* set bottom padding */
+}
+/* selector for paragraph within the main element*/
+main p {
+	padding-bottom: 0.5em; /* set bottom padding */
+}
+/* selector for blockquote within the main element*/
+main blockquote {
+	padding-left: 2em; /* set left padding */
+	padding-right: 2em; /* set right padding */
+}
+/* selector for unordered list within the main element*/
+main ul {
+	padding-bottom: 0.25em; /* set bottom padding */
+	padding-left: 1.25em; /* set left padding */
+}
+/* selector for each list within the main element*/
+main li {
+	padding-bottom: 0.35em; /* set bottom padding */
+}
 /* ========== Selectors ==========*/
 /* When focus on the link */
 a:focus {
 	font-style: italic;
 }
-
 /* when hover on the link */
 a:hover {
 	font-style: italic;
 }
-
 /* text shadow */
 .shadow {
 	text-shadow: 2px 2px #800000;
 }
-
 /* the styles for the footer */
 footer p {
 	text-align: center; /* align the text to center */
 	background: #931420; /* set background color */
 	color: white; /* set font color */
+	padding-top: 1em; /* set top padding */
+	padding-bottom: 1em; /* set bottom padding */
 }
 
 

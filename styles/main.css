@@ -59,9 +59,10 @@ main h1 {
 /* selector for h2 within the main element*/
 main h2 {
 	font-size: 130%;
-	color: #800000;
+	color: black; /* set the months text to black */
 	padding: 0.5em 0em 0.25em 0em;
 }
+
 /* selector for h3 within the main element*/
 main h3 {
 	font-size: 105%;

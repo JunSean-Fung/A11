@@ -19,11 +19,12 @@ body {
 }
 
 /* ========== Header Selectors ==========*/
-/* styles for text within the header tag*/
+/* styles for elements within the header tag that is not specified*/
 header {
 	border-bottom: 3px solid #931420; /*parameter: width style color */
 	padding-top: 1.5em;
 	padding-bottom: 2em;
+
 }
 /* the styles for the logo(image) within the page */
 header img {
@@ -40,11 +41,10 @@ header h2 {
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-
 }
 
 /* ========== Main Selectors ==========*/
-/* the selector that is within the html main tag that is not been specified*/
+/* styles for elements within the main tag that is not specified*/
 main {
 	clear: left;
 	padding-left: 30px; /* set left padding */

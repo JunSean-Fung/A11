@@ -1,11 +1,13 @@
 /* JunSean Fung*/
 
-/* reset selector */
+/* ========== reset Selector ==========*/
+/* set margin and padding to zero */
 * {
 	margin: 0;
 	padding: 0;
 }
 
+/* ========== body Selector ==========*/
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -16,10 +18,39 @@ body {
 	background: #fffded; /* set the entire background color */
 }
 
-/* ========================================= ===== Main Selectors ==============================================*/
+/* ========== Header Selectors ==========*/
+/* styles for text within the header tag*/
+header {
+	border-bottom: 3px solid #931420; /*parameter: width style color */
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+/* the styles for the logo(image) within the page */
+header img {
+	float: left;
+	padding-left: 30px; /* set left padding */
+	padding-right: 30px; /* set right padding */
+
+}
+/* style for h2 within the header tag*/
+header h2 {
+	font-size: 170%;
+	color: #800000;
+
+}
+/* style for h3 within the header tag */
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+
+}
+
+/* ========== Main Selectors ==========*/
 /* the styles for the whole section from our mission header to the last speaker's image*/
 main {
 	clear: left;
+	padding-left: 30px; /* set left padding */
+	padding-right: 30px; /* set right padding */
 }
 /* styles for h1 within the main element*/
 main h1 {
@@ -38,30 +69,7 @@ main h3 {
 	font-size: 105%;
 }
 
-/* =============================================== Header selectors ============================================*/
-/* styles for text within the header tag*/
-header {
-	border-bottom: 3px solid #931420; /*parameter: width style color */
-	padding-top: 1.5em;
-	padding-bottom: 2em;
-}
-/* the styles for the logo within the page */
-header img {
-	float: left;
-}
-/* style for h2 within the header tag*/
-header h2 {
-	font-size: 170%;
-	color: #800000;
-	text-indent: 30px;
-}
-/* style for h3 within the header tag */
-header h3 {
-	font-size: 130%;
-	font-style: italic;
-	text-indent: 30px;
-}
-
+/* ========== Selectors ==========*/
 /* When focus on the link */
 a:focus {
 	font-style: italic;

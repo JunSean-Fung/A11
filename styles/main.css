@@ -17,7 +17,9 @@ body {
 	border: 3px solid #931420; /*parameter: width style color */
 	background: #fffded; /* set the entire background color */
 }
-
+html{
+	background: white;
+}
 /* ========== Header Selectors ==========*/
 /* styles for elements within the header tag that is not specified*/
 header {

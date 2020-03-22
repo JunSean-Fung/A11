@@ -1,6 +1,7 @@
 /* JunSean Fung*/
 /* the styles for the elements */
-body {
+body
+{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
 	margin: 0px auto 0px auto; /* parameter: top right bottom left */
@@ -9,61 +10,82 @@ body {
 	background: #fffded; /* set the entire background color */
 }
 
-/* the styles for the header */
-header img {
+/* styles for text within the header tag*/
+header
+{
+	border-bottom: 3px solid #931420; /*parameter: width style color */
+
+}
+/* the styles for the logo within the page */
+header img
+{
 	float: left;
 }
 
-/* the styles for the section */
-main {
+/* the styles for the whole section from our mission header to the last speaker's image*/
+main
+{
 	clear: left;
 }
 /* styles for h1 within the main element*/
-main h1 {
+main h1
+{
 	font-size: 150%;
+	border-top: 3px solid #931420; /*parameter: width style color */
+	border-bottom: 3px solid #931420; /*parameter: width style color */
 }
 
 /* styles for h2 within the main element*/
-main h2 {
+main h2
+{
 	font-size: 130%;
 	color: #800000;
 }
 /* styles for h3 within the main element*/
-main h3{
+main h3
+{
 	font-size: 105%;
 }
 
 /* style for h2 within the header tag*/
-header h2 {
+header h2
+{
 	font-size: 170%;
 	color: #800000;
 	text-indent: 30px;
 }
 /* style for h3 within the header tag */
-header h3 {
+header h3
+{
 	font-size: 130%;
 	font-style: italic;
 	text-indent: 30px;
 }
 
 /* When focus on the link */
-a:focus {
+a:focus
+{
 	font-style: italic;
 }
+
 /* when hover on the link */
-a:hover {
+a:hover
+{
 	font-style: italic;
 }
-
-
 
 /* text shadow */
-.shadow {
+.shadow
+{
 	text-shadow: 2px 2px #800000;
 }
+
 /* the styles for the footer */
-footer p{
+footer p
+{
 	text-align: center; /* align the text to center */
+	background: #931420; /* set background color */
+	color: white; /* set font color */
 }
 
 
